@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    margin-left: 240px;
+}
+
+h1 {
+    color: #333;
+    margin-left: 395px;
+    margin-right: 155px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    margin-left: 240px;
+}
+
+.lang-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.9s;
+}
+
+.lang-card:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+.main-content {
+    margin-left: -240px; 
+    max-width: auto;
+    margin-right: 0px;
+    text-align: center;
+}
+
+
+p {
+  max-width: 650px;
+  margin-left: 395px;
+  margin-right: 155px;
+  text-align: left;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: left; /* Aligns text within the sidebar */
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal; /* Override bold style from the 'a' tag */
+}
+
+.sidebar a:hover {
+    background-color: #e0e0e0;
+}    
+
+/* quiz */
+.quiz {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .correct { color: green; }
+    .wrong { color: red; }
+
+
+/*nav button*/
+.nav-button {
+  background-color: #007bff; 
+  margin-top: 25px;
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 7px; 
+  cursor: pointer; 
+  font-size: 16px;
+  text-decoration: none; 
+  display: inline-block; 
+  transition: background-color 0.3s ease; 
+}
+
+
+/* table */
+table {
+  width: 70%; 
+  margin-left: 300px;
+}
