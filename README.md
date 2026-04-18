@@ -1,4 +1,4 @@
-# PolyglotWorld
+# Polyglot World
 
 About Polyglot World
 As a university student, I am unfortunately too broke to pay others to work on this site with me. I work indepdendently, which hopefully explains the delays. I built this site locally using a combination of HTML, CSS and JS, with the brainchild of this site being from "ikindalikelanguages", another webpage that is very similar to this albeit with different content.
